@@ -81,19 +81,23 @@ A full-stack retail management system that enables **admin-based product managem
 -cd backend/product
 -mvn spring-boot:run
 
-###Frontend
+### Frontend
 
 -cd frontend
 -npm install
 -npm run dev
 
-###📌 Key Highlights
+---
+
+### 📌 Key Highlights
 Separation of concerns using microservices
 REST API communication between services
 Real-time frontend updates using polling
 Structured and scalable project architecture
 
-###🚧 Future Improvements
+---
+
+### 🚧 Future Improvements
 Authentication & authorization (JWT)
 Cart and checkout system
 Order management
