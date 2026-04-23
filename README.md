@@ -60,14 +60,14 @@ A full-stack retail management system that enables **admin-based product managem
 ---
 
 ## 📂 Project Structure
--backend/
--├── main-service
--├── product-service
+- backend/
+- ├── main-service
+- ├── product-service
 
--frontend/
--├── pages/
--├── types/
--├── styles/
+- frontend/
+- ├── pages/
+- ├── types/
+- ├── styles/
 
 ---
 
@@ -75,30 +75,31 @@ A full-stack retail management system that enables **admin-based product managem
 
 ### Backend
 
--cd backend/main
--mvn spring-boot:run
+- cd backend/main
+- mvn spring-boot:run
 
--cd backend/product
--mvn spring-boot:run
+- cd backend/product
+- mvn spring-boot:run
 
 ### Frontend
 
--cd frontend
--npm install
--npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 ---
 
 ### 📌 Key Highlights
-Separation of concerns using microservices
-REST API communication between services
-Real-time frontend updates using polling
-Structured and scalable project architecture
+
+- Separation of concerns using microservices
+- REST API communication between services
+- Real-time frontend updates using polling
+- Structured and scalable project architecture
 
 ---
 
 ### 🚧 Future Improvements
-Authentication & authorization (JWT)
-Cart and checkout system
-Order management
-Deployment (Docker / Cloud)
+- Authentication & authorization (JWT)
+- Cart and checkout system
+- Order management
+- Deployment (Docker / Cloud)
